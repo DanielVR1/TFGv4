@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+<link rel="icon" type="image/png" href="img/logo2.png" />
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/estilos.css" />
+<title>Componentes</title>
+</head>
+<body id="bg1">
+<!-- menu -->
+<nav id="navbar-example2" class="navbar navbar-light navbar-expand-lg navbar-light bg-light navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <a class="navbar-brand text-success" href="index.html"><img src="img/logo2.png" width="40" height="40">PcComp</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active colorFondo" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"><i class="fas fa-desktop"></i> Productos</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item menuDespl" href="Perifericos.html">Periféricos</a>
+                <a class="dropdown-item menuDespl" href="Componentes.html">Componentes</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active colorFondo" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"><i class="fas fa-tools"></i> Servicios</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item menuDespl" href="#">Montaje</a>
+                <a class="dropdown-item menuDespl" href="#">Mantenimiento</a>
+              </div>
+            </li>
+            <a class="nav-link nav-item active colorFondo" href="#"><i class="fa fa-magic"></i> Diseña tu PC</a>
+            <a class="nav-link nav-item active colorFondo" href="#"><i class="fas fa-mobile-alt"></i> Contactanos</a>
+          </div>
+          <div class="navbar-nav ml-auto">
+            <button type="button" class="btn btn-success nav-link nav-item active hover" data-toggle="modal" data-target="#exampleModal" data-whatever="inicio sesion"><i class="fas fa-user"></i> Iniciar Sesión</button>
+            <button type="button" class="btn btn-success nav-link nav-item active hover" data-toggle="modal" data-target="#exampleModal2" data-whatever="Registrarse"><i class="fas fa-sign-in-alt"></i> Registrarse</button>
+        </div>
+    </div>
+</nav>
+<!-- fin menu -->
+<h2 class="titulo">Componentes</h2>
+<hr class="hr3" />
+<div class="filtro">
+  <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Filtrar</button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+    <button class="dropdown-item"><a href="#" class="btn-menu filtrado" data-filter="todos">Todos</a></button>
+    <button class="dropdown-item"><a href="#" class="btn-menu filtrado" data-filter="Tarjeta-Gráfica">Tarjeta Gráfica</a></button>
+    <button class="dropdown-item"><a href="#" class="btn-menu filtrado" data-filter="Placa-Base">Placa Base</a></button>
+    <button class="dropdown-item"><a href="#" class="btn-menu filtrado" data-filter="Torres">Torres</a></button>
+  </div>
+</div>
+<!-- Tarjetas -->
+<div class="container">
+  <div class="galeria">
+    <div class="box-img Tarjeta-Gráfica">
+    <div class="card h-100">
+      <img src="img/2080-1.jpg" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Tarjeta Gráfica MSI</h5>
+        <p class="card-text ocultar-div">
+          · Interfaz PCI Express x16 3.0<br>
+          · Velocidad de memoria: 15.5 Gpbs<br>
+          · Memoria 8GB GDDR6<br>
+          · Máximas pantallas 5<br>
+          · Núcleos 3072 unidades
+        </p>
+        <a href="#" class="btn btn-success">Comprar</a
+        ><span> Antes: <strike class="text-danger">9999€</strike></span>
+        Ahora: <span class="text-success">9998€</span>
+      </div>
+    </div>
+  </div>
+     <div class="box-img Placa-Base">
+      <div class="card h-100">
+        <img src="img/placaAorus.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Placa Base Aorus</h5>
+          <p class="card-text ocultar-div">
+            · AM4 Socket<br>
+            · 4 x sockets DDR4 con soporte hasta 64 GB<br>
+            · 8 x puertos USB 2.0/1.1<br>
+            · 4 x conector para ventilador del sistema<br>
+            · Detección de temperatura                
+          </p>
+          <a href="#" class="btn btn-success">Comprar</a
+          ><span> Antes: <strike class="text-danger">9999€</strike></span>
+          Ahora: <span class="text-success">9998€</span>
+        </div>
+    </div>
+  </div>
+    <div class="box-img Tarjeta-Gráfica">
+    <div class="card h-100">
+      <img src="img/2080-2.jpg" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Tarjeta Gráfica Aorus</h5>
+        <p class="card-text ocultar-div">
+            · Interfaz PCI Express x16 3.0<br>
+            · Velocidad de memoria: 15.5 Gpbs<br>
+            · Memoria 8GB GDDR6<br>
+            · RGB reinventada luz<br>
+            · CUDA® Cores: 3072
+        </p>
+        <a href="#" class="btn btn-success">Comprar</a
+        ><span> Antes: <strike class="text-danger">9999€</strike></span>
+        Ahora: <span class="text-success">9998€</span>
+      </div>
+    </div>
+  </div>
+    <div class="box-img Placa-Base">
+    <div class="card h-100">
+      <img src="img/placaMSI.jpg" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Placa Base MSI</h5>
+        <p class="card-text ocultar-div">
+            · AM4 Socket<br>
+            · 4 x sockets DDR4 con soporte hasta 64 GB<br>
+            · 8 x puertos USB 2.0/1.1<br>
+            · 4 x conector para ventilador del sistema<br>
+            · Detección de temperatura   
+        </p>
+        <a href="#" class="btn btn-success">Comprar</a
+        ><span> Antes: <strike class="text-danger">9999€</strike></span>
+        Ahora: <span class="text-success">9998€</span>
+      </div>
+    </div>
+</div>
+    <div class="box-img Torres">
+    <div class="card h-100">
+      <img src="img/caja1.jpg" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Caja Nfortec</h5>
+        <p class="card-text ocultar-div">
+            · Bahía interna: 2 x 2.5"<br>
+            · Frontal: 3 x 120 mm / 2 x 140 mm<br>
+            · Top: 2 x 120 mm / 2 x 140 mm<br>
+            · Trasero: 1 x 120 mm<br>
+            · Tarjeta gráfica: 320 mm
+        </p>
+        <a href="#" class="btn btn-success">Comprar</a><span> Antes: <strike class="text-danger">9999€</strike></span>
+        Ahora: <span class="text-success">9998€</span>
+      </div>
+    </div>
+  </div>
+    <div class="box-img Torres">
+    <div class="card h-100">
+      <img src="img/caja2.jpg" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Caja Asus</h5>
+        <p class="card-text ocultar-div">
+            · Ranuras de expansión: 8 x PCI-E<br>
+            · 2 x Ventilador delantero de 120/140 mm<br>
+            · 1 x Ventilador trasero de 120/140 mm<br>
+            · 2 x Ventilador inferior de 120 mm<br>
+            · Longitud de la tarjeta VGA: 320 mm    
+        </p>
+        <a href="#" class="btn btn-success">Comprar</a
+        ><span> Antes: <strike class="text-danger">9999€</strike></span>
+        Ahora: <span class="text-success">9998€</span>
+      </div>
+  </div>
+</div>
+</div>
+</div>
+  <!-- Fin Tarjetas -->
+    <!-- footer -->
+
+<footer class="py-2 bg-dark footer-lg">
+    <div class="row">
+      <div class="col-12 col-md">
+        <img src="img/logo2.png" class="logoFooter">
+        <small class="d-block mb-3 text-muted">© 2019-2020</small>
+      </div>
+      <div class="col-6 col-md">
+        <h5 class="text-light">Dirección</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Télefono de Contacto</a></li>
+          <li><a class="text-muted" href="#">Email - Fax</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5 class="text-light">¿Quienes somos?</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Nuestra Tienda</a></li>
+          <li><a class="text-muted" href="#">Condiciones de Compra</a></li>
+          <li><a class="text-muted" href="#">Privacidad</a></li>
+          <li><a class="text-muted" href="#">Aviso Legal</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5 class="text-light">¿Necesitas ayuda?</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Localizar Pedido</a></li>
+          <li><a class="text-muted" href="#">Devolver Producto</a></li>
+          <li><a class="text-muted" href="#">Atención al Cliente</a></li>
+          <li><a class="text-muted" href="#">Terminos y Condiciones</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5 class="text-light">Redes Sociales</h5>
+        <ul class="list-unstyled text-small">
+          <li><a href="#"><img src="img/logo twitter.png" class="logos"></a><a class="text-muted" href="#"> Twitter</a></li>
+          <li><a href="#"><img src="img/logo instagram.png" class="logos"></a><a class="text-muted" href="#"> Instagram</a></li>
+          <li><a href="#"><img src="img/logo facebook.png" class="logos"></a><a class="text-muted" href="#"> Facebook</a></li>
+          <li><a href="#"><img src="img/logo google+.png" class="logos"></a><a class="text-muted" href="#"> Google+</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src=" https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/js.js"></script>
+</body>
+</html>

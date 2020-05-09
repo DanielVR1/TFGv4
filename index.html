@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+<link rel="icon" type="image/png" href="img/logo2.png" />
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/estilos.css" />
+<title>PcComp</title>
+</head>
+
+<body id="bg1">
+<!-- menu -->
+
+<nav id="navbar-example2" class="navbar navbar-light navbar-expand-lg navbar-light bg-light navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <a class="navbar-brand text-success" href="index.html"><img src="img/logo2.png" width="40" height="40">PcComp</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active colorFondo" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"><i class="fas fa-desktop"></i> Productos</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item menuDespl" href="Perifericos.html">Periféricos</a>
+                <a class="dropdown-item menuDespl" href="Componentes.html">Componentes</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active colorFondo" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"><i class="fas fa-tools"></i> Servicios</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item menuDespl" href="#">Montaje</a>
+                <a class="dropdown-item menuDespl" href="#">Mantenimiento</a>
+              </div>
+            </li>
+            <a class="nav-link nav-item active colorFondo" href="#"><i class="fa fa-magic"></i> Diseña tu PC</a>
+            <a class="nav-link nav-item active colorFondo" href="#"><i class="fas fa-mobile-alt"></i> Contactanos</a>
+          </div>
+          <div class="navbar-nav ml-auto">
+            <button type="button" class="btn btn-success nav-link nav-item active hover" data-toggle="modal" data-target="#exampleModal" data-whatever="inicio sesion"><i class="fas fa-user"></i> Iniciar Sesión</button>
+            <button type="button" class="btn btn-success nav-link nav-item active hover" data-toggle="modal" data-target="#exampleModal2" data-whatever="Registrarse"><i class="fas fa-sign-in-alt"></i> Registrarse</button>
+        </div>
+    </div>
+</nav>
+
+<!-- fin menu -->
+<!-- modal -->
+
+<div class="container">
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Iniciar Sesión</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Correo Electronico:</label>
+                            <input type="text" class="form-control" id="recipient-name" placeholder="Correo Electronico..." />
+                        </div>
+                        <div class="form-group">
+                            <label for="message-text" class="col-form-label">Contraseña:</label>
+                            <input type="password" class="form-control" id="password" placeholder="Contraseña..." />
+                        </div>
+                        <input type="checkbox" /> Recordar Correo Electronico<br>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-success">Iniciar Sesión</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<h2 class="titulo">Top Ventas</h2>
+<hr class="hr1" />
+<!-- fin modal -->
+
+<!-- Modal Registro -->
+<div class="container">
+    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <section class="form-register">
+                        <h4>Formulario Registro</h4>
+                        <br>
+                        <div class="form-group">
+                            Nombre:
+                            <input class="form-control" type="text" name="nombre" placeholder="Nombre..." />
+                        </div>
+                        <div class="form-group">
+                            Apellidos:
+                            <input class="form-control" type="text" name="apellidos" placeholder="Apellidos..." />
+                        </div>
+                        <div class="form-group">
+                            Nombre de Usuario:
+                            <input class="form-control" type="text" name="nombreUsuario" placeholder="Nombre Usuario..." />
+                        </div>
+                        <div class="form-group">
+                            Ciudad:
+                            <input class="form-control" type="text" name="ciudad" placeholder="Ciudad..." />
+                        </div>
+                        <div class="form-group">
+                            Localidad:
+                            <input class="form-control" type="text" name="localidad" placeholder="Localidad..." />
+                        </div>
+                        <div class="form-group">
+                            E-mail:
+                            <input class="form-control" type="email" name="email" placeholder="E-mail..." />
+                        </div>
+                        <div class="form-group">
+                            Contraseña:
+                            <input class="form-control" type="password" name="contraseña" placeholder="Contraseña..." />
+                        </div>
+                        <div class="form-group">
+                            <p><input type="checkbox"/> Estoy de acuerdo con los Terminos y Condiciones</p>
+                            <a href="index.html"><button class="btn btn-success" type="submit" name="enviar">Enviar</button>
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button></a>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Fin Modal Registro -->
+<!-- Carousel -->
+<div id="carousel" class="carousel slide TamañoCarousel " data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel" data-slide-to="1"></li>
+    <li data-target="#carousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img/Slider-Mac.jpg" alt="Primer Slide"/>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/Slider-Tablet.jpg" alt="Primer Slide"/>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/Slider-Mac.jpg" alt="Primer Slide"/>
+    </div>
+  </div>
+</div>
+<!-- Fin Carousel -->
+<h2 class="titulo pad">¡EN OFERTA!</h2>
+<hr class="hr1" />
+<!-- Tarjetas -->
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-3">
+    <div class="col mb-3">
+      <div class="card h-100">
+        <img src="img/teclado1.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Teclado Razer</h5>
+          <p class="card-text">
+            · Tecnología mecánico de Razer™<br>
+            · Teclas de media altura<br>
+            · Retroiluminación Razer Chroma<br>
+            · Reposamuñecas ergonómico<br>
+            · Preparado para Razer Synapse
+          </p>
+          <a href="#" class="btn btn-success">Comprar</a
+          ><span> Antes: <strike class="text-danger">9999€</strike></span>
+          Ahora: <span class="text-success">9998€</span>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-3">
+      <div class="card h-100">
+        <img src="img/mouse1.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Raton Logitech</h5>
+          <p class="card-text">
+            · Resolución: 100 – 16.000 dpi<br>
+            · Velocidad de respuesta USB: 1000 Hz (1 ms)<br>
+            · Botones principales: 50 millones de clics<br>
+            · RGB LIGHTSYNC<br>
+            · Longitud de cable: 2,10 m                
+          </p>
+          <a href="#" class="btn btn-success">Comprar</a
+          ><span> Antes: <strike class="text-danger">9999€</strike></span>
+          Ahora: <span class="text-success">9998€</span>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-3">
+      <div class="card h-100">
+        <img src="img/placaAorus.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Placa Base Aorus</h5>
+          <p class="card-text">
+              · AM4 Socket<br>
+              · 4 x sockets DDR4 con soporte hasta 64 GB<br>
+              · 8 x puertos USB 2.0/1.1<br>
+              · 4 x conector para ventilador del sistema<br>
+              · Detección de temperatura    
+          </p>
+          <a href="#" class="btn btn-success">Comprar</a
+          ><span> Antes: <strike class="text-danger">9999€</strike></span>
+          Ahora: <span class="text-success">9998€</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-3">
+    <div class="col mb-3">
+      <div class="card h-100">
+        <img src="img/2080-1.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Tarjeta Gráfica MSI</h5>
+          <p class="card-text">
+              · Interfaz PCI Express x16 3.0<br>
+              · Velocidad de memoria: 15.5 Gpbs<br>
+              · Memoria 8GB GDDR6<br>
+              · Máximas pantallas 5<br>
+              · Núcleos 3072 unidades
+          </p>
+          <a href="#" class="btn btn-success">Comprar</a
+          ><span> Antes: <strike class="text-danger">9999€</strike></span>
+          Ahora: <span class="text-success">9998€</span>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-3">
+      <div class="card h-100">
+        <img src="img/monitor2.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Monitor Asus</h5>
+          <p class="card-text">
+              · Peso del ratón: 85 g<br>
+              · 6 x botones<br>
+              · Resolución de movimiento: 6000 DPI<br>
+              · 4 x modos de frecuencia<br>
+              · Longitud de cable: 1,8 m 
+          </p>
+          <a href="#" class="btn btn-success">Comprar</a
+          ><span> Antes: <strike class="text-danger">9999€</strike></span>
+          Ahora: <span class="text-success">9998€</span>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-3">
+      <div class="card h-100">
+        <img src="img/caja2.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Caja Asus</h5>
+          <p class="card-text">
+              · Ranuras de expansión: 8 x PCI-E<br>
+              · 2 x Ventilador delantero de 120/140 mm<br>
+              · 1 x Ventilador trasero de 120/140 mm<br>
+              · 2 x Ventilador inferior de 120 mm<br>
+              · Longitud de la tarjeta VGA: 320 mm    
+          </p>
+          <a href="#" class="btn btn-success">Comprar</a
+          ><span> Antes: <strike class="text-danger">9999€</strike></span>
+          Ahora: <span class="text-success">9998€</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Fin Tarjetas -->
+
+<!--Google maps-->
+
+<div id="map-container-google-11" class="z-depth-1-half map-container-6 d-flex justify-content-center" style="height: 400px">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24214.14096533923!2d-3.7900304749207643!3d40.65705258438886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd417ddb04a9dbab%3A0x90343d10f0f7d020!2s28770%20Colmenar%20Viejo%2C%20Madrid%2C%20Espa%C3%B1a!5e0!3m2!1ses!2sus!4v1582274981850!5m2!1ses!2sus" width="800" height="400" frameborder="0" style="border:0;" allowfullscreen="" ></iframe>
+</div>
+<br>
+<br>
+<!--Fin Google maps-->
+
+<!-- footer -->
+
+<footer class="py-2 bg-dark footer-lg">
+  <div class="row">
+    <div class="col-12 col-md">
+      <img src="img/logo2.png" class="logoFooter">
+      <small class="d-block mb-3 text-muted">© 2019-2020</small>
+    </div>
+    <div class="col-6 col-md">
+      <h5 class="text-light">Dirección</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="#">Télefono de Contacto</a></li>
+        <li><a class="text-muted" href="#">Email - Fax</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5 class="text-light">¿Quienes somos?</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="#">Nuestra Tienda</a></li>
+        <li><a class="text-muted" href="#">Condiciones de Compra</a></li>
+        <li><a class="text-muted" href="#">Privacidad</a></li>
+        <li><a class="text-muted" href="#">Aviso Legal</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5 class="text-light">¿Necesitas ayuda?</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="#">Localizar Pedido</a></li>
+        <li><a class="text-muted" href="#">Devolver Producto</a></li>
+        <li><a class="text-muted" href="#">Atención al Cliente</a></li>
+        <li><a class="text-muted" href="#">Terminos y Condiciones</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5 class="text-light">Redes Sociales</h5>
+      <ul class="list-unstyled text-small">
+        <li><a href="#"><img src="img/logo twitter.png" class="logos"></a><a class="text-muted" href="#"> Twitter</a></li>
+        <li><a href="#"><img src="img/logo instagram.png" class="logos"></a><a class="text-muted" href="#"> Instagram</a></li>
+        <li><a href="#"><img src="img/logo facebook.png" class="logos"></a><a class="text-muted" href="#"> Facebook</a></li>
+        <li><a href="#"><img src="img/logo google+.png" class="logos"></a><a class="text-muted" href="#"> Google+</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<!-- fin footer -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src=" https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
