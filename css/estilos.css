@@ -86,7 +86,7 @@
 /* filtrar */
 
 .filtro{
-    padding-left: 80%;
+    padding-left: 74%;
 }
 
 .filtrado{
@@ -119,11 +119,5 @@ list-style: none;
 @media screen and (max-width: 600px){
     .ocultar-div{
         display: none;
-    }
-}
-
-@media screen and (max-width: 388px){
-    .menu{
-        padding-left: 10%;
     }
 }
